@@ -26,7 +26,7 @@ public class MyFileReader {
             String line;
             while ((line = br.readLine()) != null) {
                 // process the line.
-                Log.d("line", line);
+                //Log.d("line", line);
                 arrayList.add(line);
                 ++i;
             }
